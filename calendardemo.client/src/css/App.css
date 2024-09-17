@@ -1,0 +1,61 @@
+﻿
+
+#root {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Verdana;
+    --medium-blue: rgba(20, 84, 180, 1);
+}
+
+.theme-medium-blue {
+    background-color: var(--medium-blue) !important;
+    color: white;
+}
+
+.theme-medium-blue-font {
+    color: var(--medium-blue) !important;
+}
+
+td, th {
+    padding-left: 1rem !important;
+    padding-right: 1rem;
+}
+
+td, th {
+    color: #666666 !important;
+}
+
+.width-5 {
+    width: 5%;
+}
+
+.width-15 {
+    width: 15%;
+}
+
+.width-20 {
+    width:20%;
+}
+
+.width-40 {
+    width:40%;
+}
+
+.page-content {
+    margin: 2rem 0 4rem 0;
+}
+
+.page-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3rem;
+    
+}
+
+.page-footer-contents {
+    margin: 0.5% !important;
+}
+
